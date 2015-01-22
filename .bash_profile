@@ -32,3 +32,7 @@ export PS1='\[\e[0;32m\][\u@\h \W]$\[\e[0m\] '
   fi
 
 #
+
+# Added by Canopy installer on 2015-01-21
+# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make bashprompt show that Canopy is active, otherwise 1
+VIRTUAL_ENV_DISABLE_PROMPT=1 source /Users/Anand/Library/Enthought/Canopy_64bit/User/bin/activate
